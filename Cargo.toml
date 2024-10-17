@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [ "library",
+    "library",
+    "solutions/22-generate-parentheses",
+    "solutions/412-fizz-buzz",
+]
