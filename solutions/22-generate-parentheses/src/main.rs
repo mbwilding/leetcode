@@ -6,7 +6,6 @@ pub struct Solution;
 impl Solution {
     pub fn generate_parenthesis(n: i32) -> Vec<String> {
         let mut result = Vec::new();
-
         Self::dfs(n, 0, 0, String::new(), &mut result);
 
         result
